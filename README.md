@@ -19,12 +19,20 @@ I am waiting for the use of makers who could possibly provide an stl or a method
 
 gcode:
 G92 E0
+
 G1 E-35 F1800
+
 G1 X20 F5000
+
 SET_TMC_CURRENT STEPPER=stepper_x CURRENT=2
+
 SET_TMC_CURRENT STEPPER=stepper_z CURRENT=2
+
 G1 X0 F1000
+
 G1 E-35 F1800
+
 SET_TMC_CURRENT STEPPER=stepper_x CURRENT=1.100
+
 SET_TMC_CURRENT STEPPER=stepper_z CURRENT=1.100
 
